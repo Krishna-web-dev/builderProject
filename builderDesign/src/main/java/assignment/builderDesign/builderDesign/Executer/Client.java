@@ -12,7 +12,10 @@ public class Client<student2> {
                 .addHasExperience(true) // optional
                 .build(); // to get back student option
 
-        System.out.println(student1);
+        
+        
+        loggger.info(student1);
+        //System.out.println(student1);
 
     }
 
